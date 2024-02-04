@@ -10,6 +10,7 @@ const { Sider } = Layout;
 
 const Sidebar = () => {
   const user = useAppSelector(selectCurrentUser);
+
   const userRole = {
     ADMIN: "admin",
     FACULTY: "faculty",
